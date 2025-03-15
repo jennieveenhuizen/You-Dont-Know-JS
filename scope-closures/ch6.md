@@ -383,7 +383,7 @@ Next, let's talk about the declaration `var buckets`. That variable is used acro
 
 | NOTE: |
 | :--- |
-| The parameter `names` isn't used across the whole function, but there's no way limit the scope of a parameter, so it behaves as a function-wide declaration regardless. |
+| The parameter `names` isn't used across the whole function, but there's no way to limit the scope of a parameter, so it behaves as a function-wide declaration regardless. |
 
 So why did we use `var` instead of `let` to declare the `buckets` variable? There's both semantic and technical reasons to choose `var` here.
 
