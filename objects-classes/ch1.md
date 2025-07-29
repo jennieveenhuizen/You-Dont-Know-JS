@@ -367,7 +367,7 @@ Object.entries(myObj);
 // [ ["favoriteNumber",42], ["isDeveloper",true], ["firstName","Kyle"] ]
 ```
 
-Added in ES6, `Object.entries(..)` retrieves this list of entries -- containing only owned an enumerable properties; see the "Property Descriptors" section in the next chapter -- from a source object.
+Added in ES6, `Object.entries(..)` retrieves this list of entries -- containing only owned and enumerable properties; see the "Property Descriptors" section in the next chapter -- from a source object.
 
 Such a list can be looped/iterated over, potentially assigning properties to another existing object. However, it's also possible to create a new object from a list of entries, using `Object.fromEntries(..)` (added in ES2019):
 
